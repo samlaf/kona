@@ -53,6 +53,24 @@ panic = "abort"
 codegen-units = 1
 lto = "fat"
 
+[patch.crates-io]
+op-alloy-genesis = { git = "https://github.com/alloy-rs/op-alloy", branch = "main" }
+op-alloy-protocol = { git = "https://github.com/alloy-rs/op-alloy", branch = "main" }
+op-alloy-consensus = { git = "https://github.com/alloy-rs/op-alloy", branch = "main" }
+op-alloy-rpc-types-engine = { git = "https://github.com/alloy-rs/op-alloy", branch = "main" }
+
+alloy-eips = { git = "https://github.com/refcell/alloy", branch = "rf/fix/ibh" }
+alloy-serde = { git = "https://github.com/refcell/alloy", branch = "rf/fix/ibh" }
+alloy-provider = { git = "https://github.com/refcell/alloy", branch = "rf/fix/ibh"}
+alloy-consensus = { git = "https://github.com/refcell/alloy",  branch = "rf/fix/ibh"}
+alloy-transport = { git = "https://github.com/refcell/alloy", branch = "rf/fix/ibh"}
+alloy-rpc-types = { git = "https://github.com/refcell/alloy",  branch = "rf/fix/ibh"}
+alloy-rpc-client = { git = "https://github.com/refcell/alloy", branch = "rf/fix/ibh"}
+alloy-node-bindings = { git = "https://github.com/refcell/alloy",branch = "rf/fix/ibh"}
+alloy-transport-http = { git = "https://github.com/refcell/alloy", branch = "rf/fix/ibh"}
+alloy-rpc-types-engine = { git = "https://github.com/refcell/alloy", branch = "rf/fix/ibh"}
+alloy-rpc-types-beacon = { git = "https://github.com/refcell/alloy", branch = "rf/fix/ibh"}
+
 [workspace.dependencies]
 # Workspace
 kona-mpt = { path = "crates/mpt", version = "0.0.6", default-features = false }

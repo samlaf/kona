@@ -47,9 +47,9 @@ checksum = "cc7bb162ec39d46ab1ca8c77bf72e890535becd1751bb45f64c597edb4c8c6b3"
 
 [[package]]
 name = "allocator-api2"
-version = "0.2.18"
+version = "0.2.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5c6cb57a04249c6480766f7f7cef5467412af1490f8d1e243141daddada3264f"
+checksum = "611cc2ae7d2e242c457e4be7f97036b8ad9ca152b499f53faf99b1ed8fc2553f"
 
 [[package]]
 name = "alloy-chains"
@@ -991,9 +991,9 @@ checksum = "37b2a672a2cb129a2e41c10b1224bb368f9f37a2b16b612598138befd7b37eb5"
 
 [[package]]
 name = "cc"
-version = "1.1.36"
+version = "1.1.37"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "baee610e9452a8f6f0a1b6194ec09ff9e2d85dea54432acdae41aa0761c95d70"
+checksum = "40545c26d092346d8a8dab71ee48e7685a7a9cba76e634790c215b41a4a7b4cf"
 dependencies = [
  "jobserver",
  "libc",
@@ -3891,9 +3891,9 @@ dependencies = [
 
 [[package]]
 name = "security-framework-sys"
-version = "2.12.0"
+version = "2.12.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ea4a292869320c0272d7bc55a5a6aafaff59b4f63404a003887b679a2e05b4b6"
+checksum = "fa39c7303dc58b5543c94d22c1766b0d31f2ee58306363ea622b10bbc075eaa2"
 dependencies = [
  "core-foundation-sys",
  "libc",
@@ -5146,3 +5146,78 @@ dependencies = [
  "quote",
  "syn 2.0.87",
 ]
+
+[[patch.unused]]
+name = "alloy-consensus"
+version = "0.6.2"
+source = "git+https://github.com/refcell/alloy?branch=rf/fix/ibh#a45e4cbd52e2c61591b58e33cc8ce978938f4e5e"
+
+[[patch.unused]]
+name = "alloy-eips"
+version = "0.6.2"
+source = "git+https://github.com/refcell/alloy?branch=rf/fix/ibh#a45e4cbd52e2c61591b58e33cc8ce978938f4e5e"
+
+[[patch.unused]]
+name = "alloy-node-bindings"
+version = "0.6.2"
+source = "git+https://github.com/refcell/alloy?branch=rf/fix/ibh#a45e4cbd52e2c61591b58e33cc8ce978938f4e5e"
+
+[[patch.unused]]
+name = "alloy-provider"
+version = "0.6.2"
+source = "git+https://github.com/refcell/alloy?branch=rf/fix/ibh#a45e4cbd52e2c61591b58e33cc8ce978938f4e5e"
+
+[[patch.unused]]
+name = "alloy-rpc-client"
+version = "0.6.2"
+source = "git+https://github.com/refcell/alloy?branch=rf/fix/ibh#a45e4cbd52e2c61591b58e33cc8ce978938f4e5e"
+
+[[patch.unused]]
+name = "alloy-rpc-types"
+version = "0.6.2"
+source = "git+https://github.com/refcell/alloy?branch=rf/fix/ibh#a45e4cbd52e2c61591b58e33cc8ce978938f4e5e"
+
+[[patch.unused]]
+name = "alloy-rpc-types-beacon"
+version = "0.6.2"
+source = "git+https://github.com/refcell/alloy?branch=rf/fix/ibh#a45e4cbd52e2c61591b58e33cc8ce978938f4e5e"
+
+[[patch.unused]]
+name = "alloy-rpc-types-engine"
+version = "0.6.2"
+source = "git+https://github.com/refcell/alloy?branch=rf/fix/ibh#a45e4cbd52e2c61591b58e33cc8ce978938f4e5e"
+
+[[patch.unused]]
+name = "alloy-serde"
+version = "0.6.2"
+source = "git+https://github.com/refcell/alloy?branch=rf/fix/ibh#a45e4cbd52e2c61591b58e33cc8ce978938f4e5e"
+
+[[patch.unused]]
+name = "alloy-transport"
+version = "0.6.2"
+source = "git+https://github.com/refcell/alloy?branch=rf/fix/ibh#a45e4cbd52e2c61591b58e33cc8ce978938f4e5e"
+
+[[patch.unused]]
+name = "alloy-transport-http"
+version = "0.6.2"
+source = "git+https://github.com/refcell/alloy?branch=rf/fix/ibh#a45e4cbd52e2c61591b58e33cc8ce978938f4e5e"
+
+[[patch.unused]]
+name = "op-alloy-consensus"
+version = "0.6.3"
+source = "git+https://github.com/alloy-rs/op-alloy?branch=main#c24df6b58323eaa55e45be7fc810ac8ffd2fa875"
+
+[[patch.unused]]
+name = "op-alloy-genesis"
+version = "0.6.3"
+source = "git+https://github.com/alloy-rs/op-alloy?branch=main#c24df6b58323eaa55e45be7fc810ac8ffd2fa875"
+
+[[patch.unused]]
+name = "op-alloy-protocol"
+version = "0.6.3"
+source = "git+https://github.com/alloy-rs/op-alloy?branch=main#c24df6b58323eaa55e45be7fc810ac8ffd2fa875"
+
+[[patch.unused]]
+name = "op-alloy-rpc-types-engine"
+version = "0.6.3"
+source = "git+https://github.com/alloy-rs/op-alloy?branch=main#c24df6b58323eaa55e45be7fc810ac8ffd2fa875"
