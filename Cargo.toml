@@ -54,22 +54,22 @@ codegen-units = 1
 lto = "fat"
 
 [patch.crates-io]
-op-alloy-genesis = { git = "https://github.com/alloy-rs/op-alloy", branch = "main" }
-op-alloy-protocol = { git = "https://github.com/alloy-rs/op-alloy", branch = "main" }
-op-alloy-consensus = { git = "https://github.com/alloy-rs/op-alloy", branch = "main" }
-op-alloy-rpc-types-engine = { git = "https://github.com/alloy-rs/op-alloy", branch = "main" }
+op-alloy-genesis = { git = "https://github.com/alloy-rs/op-alloy", branch = "rf/backport" }
+op-alloy-protocol = { git = "https://github.com/alloy-rs/op-alloy", branch = "rf/backport" }
+op-alloy-consensus = { git = "https://github.com/alloy-rs/op-alloy", branch = "rf/backport" }
+op-alloy-rpc-types-engine = { git = "https://github.com/alloy-rs/op-alloy", branch = "rf/backport" }
 
-alloy-eips = { git = "https://github.com/refcell/alloy", branch = "rf/fix/ibh" }
-alloy-serde = { git = "https://github.com/refcell/alloy", branch = "rf/fix/ibh" }
-alloy-provider = { git = "https://github.com/refcell/alloy", branch = "rf/fix/ibh"}
-alloy-consensus = { git = "https://github.com/refcell/alloy",  branch = "rf/fix/ibh"}
-alloy-transport = { git = "https://github.com/refcell/alloy", branch = "rf/fix/ibh"}
-alloy-rpc-types = { git = "https://github.com/refcell/alloy",  branch = "rf/fix/ibh"}
-alloy-rpc-client = { git = "https://github.com/refcell/alloy", branch = "rf/fix/ibh"}
-alloy-node-bindings = { git = "https://github.com/refcell/alloy",branch = "rf/fix/ibh"}
-alloy-transport-http = { git = "https://github.com/refcell/alloy", branch = "rf/fix/ibh"}
-alloy-rpc-types-engine = { git = "https://github.com/refcell/alloy", branch = "rf/fix/ibh"}
-alloy-rpc-types-beacon = { git = "https://github.com/refcell/alloy", branch = "rf/fix/ibh"}
+alloy-eips = { git = "https://github.com/refcell/alloy", branch = "main" }
+alloy-serde = { git = "https://github.com/refcell/alloy", branch = "main" }
+alloy-provider = { git = "https://github.com/refcell/alloy", branch = "main"}
+alloy-consensus = { git = "https://github.com/refcell/alloy",  branch = "main"}
+alloy-transport = { git = "https://github.com/refcell/alloy", branch = "main"}
+alloy-rpc-types = { git = "https://github.com/refcell/alloy",  branch = "main"}
+alloy-rpc-client = { git = "https://github.com/refcell/alloy", branch = "main"}
+alloy-node-bindings = { git = "https://github.com/refcell/alloy",branch = "main"}
+alloy-transport-http = { git = "https://github.com/refcell/alloy", branch = "main"}
+alloy-rpc-types-engine = { git = "https://github.com/refcell/alloy", branch = "main"}
+alloy-rpc-types-beacon = { git = "https://github.com/refcell/alloy", branch = "main"}
 
 [workspace.dependencies]
 # Workspace
